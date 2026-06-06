@@ -8,7 +8,7 @@ consequential decisions, reuse authoritative tools, validate outputs, and leave
 an auditable handoff. It intentionally does not prescribe project-specific
 algorithms, instruments, directory layouts, or processing stages.
 
-[中文说明](README.zh.md)
+[简体中文](README.zh.md)
 
 ## Core Principles
 

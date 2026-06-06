@@ -7,7 +7,7 @@ Skill。
 验证数据产品，并留下可审计的工作交接。它不会规定任何项目专属的算法、仪器、目录结构或
 固定处理阶段。
 
-[English README](README.md)
+[English](README.md)
 
 ## 核心原则
 
