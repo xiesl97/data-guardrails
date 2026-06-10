@@ -44,7 +44,7 @@ data-guardrails/
 
 ```text
 请将这个仓库安装为你所在 Agent 环境中的通用 skill：
-<仓库路径或 URL>
+https://github.com/xiesl97/data-guardrails
 ```
 
 Agent 应在安装前检查自身支持的 skill 格式和能力。如果能够读取引用资料，应保留

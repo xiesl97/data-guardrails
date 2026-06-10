@@ -45,7 +45,7 @@ For example:
 
 ```text
 Install this repository as a reusable skill for your agent environment:
-<repository path or URL>
+https://github.com/xiesl97/data-guardrails
 ```
 
 The agent should inspect its own skill format and capabilities before
