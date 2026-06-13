@@ -21,6 +21,8 @@ Pause before execution when any of the following holds:
 - A threshold, selection rule, fallback, exclusion, repair, or approximation is not approved.
 - The proposed action may remove information or change which records reach downstream analysis.
 - A project instruction is missing, ambiguous, or inconsistent with another authority.
+- A project needs a stable human-facing processing contract but no approved
+  `DATA_STANDARD.md` or equivalent exists yet.
 - Continuing requires changing an approved plan, tool, parameter, data source, or output contract.
 - An overwrite, destructive edit, or migration has not been explicitly authorized.
 

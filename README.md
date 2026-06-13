@@ -23,12 +23,17 @@ algorithms, instruments, directory layouts, or processing stages.
 
 ```text
 data-guardrails/
+├── AI_WORKLOG.md
+├── DATA_STANDARD.md
 ├── SKILL.md
 └── references/
     ├── audit-checklist.md
     └── decision-gates.md
 ```
 
+- `AI_WORKLOG.md` is a reusable template for the AI-facing project worklog.
+- `DATA_STANDARD.md` is a reusable template for the human-facing project data
+  processing standard.
 - `SKILL.md` contains the core instructions and activation description.
 - `references/audit-checklist.md` provides a configurable audit checklist.
 - `references/decision-gates.md` defines when an agent may proceed, must ask
@@ -69,6 +74,18 @@ The skill complements project-specific processing standards. Project documents
 should define the actual data sources, approved algorithms, parameters, quality
 criteria, and output contracts. Data Guardrails governs how agents follow,
 verify, document, and escalate those decisions.
+
+When a project does not already provide equivalent documents, an agent using
+this skill should create and maintain:
+
+- `AI_WORKLOG.md` for AI-only operational handoff, current state, and durable
+  execution constraints.
+- `DATA_STANDARD.md` for the human-facing processing contract: approved data
+  scope, transformations, defaults, outputs, validation, and interpretation
+  limits.
+
+These documents should live in the project workspace, not inside the installed
+skill directory.
 
 ## Scope
 

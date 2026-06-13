@@ -8,6 +8,8 @@ Select checks that are meaningful for the project's data model, domain, and down
 - Consequential choices are approved by the user or governing standard.
 - Deviations, fallbacks, and unresolved questions are explicit.
 - No unapproved exclusions, repairs, substitutions, or transformations occurred.
+- `AI_WORKLOG.md` and `DATA_STANDARD.md` exist when the project relies on them
+  or does not provide equivalent documents.
 
 ## Inputs And Scope
 
@@ -38,6 +40,9 @@ Select checks that are meaningful for the project's data model, domain, and down
 - Formal, exploratory, temporary, superseded, and invalid products are distinguishable.
 - Another qualified person or agent can identify the current valid products and unresolved risks.
 - The worklog or handoff record reflects the current state rather than an unfiltered chronological dump.
+- The AI-facing worklog and the human-facing data standard are both updated for
+  any approved change that affects future execution or downstream
+  interpretation.
 
 ## Audit Report Minimum
 

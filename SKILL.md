@@ -49,6 +49,23 @@ Reuse the project's trusted libraries, domain tools, schemas, and established pi
 - Record enough provenance to reproduce each formal product: source identity, relevant versions, parameters, transformations, exclusions, timestamps or run identity, and known limitations.
 - Distinguish observed facts, validation results, assumptions, and interpretations.
 
+## Create And Maintain Project Companion Documents
+
+When a project does not already define equivalent files, create and maintain two
+workspace documents alongside the actual project work:
+
+- `AI_WORKLOG.md`: for AI collaborators only. Keep it short, current, and
+  operational. Record durable decisions, current approved scope, formal
+  products, validation status, limitations, and unresolved questions.
+- `DATA_STANDARD.md`: for the user and downstream human readers. Record the
+  approved processing contract: source data, selection rules, authoritative
+  tools, transformations, defaults, outputs, validation requirements, and
+  interpretation limits.
+
+Do not merge these two audiences into one document by default. The AI worklog
+is for execution handoff; the data standard is for stable human reference.
+Update both when meaningful changes affect their audience.
+
 ## Validate At Meaningful Boundaries
 
 Validate inputs before processing, intermediate products after consequential transformations, and final products before handoff.
@@ -90,7 +107,11 @@ Use staged review or an explicit audit-before-analysis gate when the user, proje
 
 Leave the workspace understandable to another qualified agent or person.
 
+- Ensure `AI_WORKLOG.md` and `DATA_STANDARD.md` exist when the project calls for
+  them or when equivalent documents are absent.
 - Update the project's chosen worklog or handoff record with durable decisions, current formal products, validation status, limitations, and unresolved questions.
+- Update the project's human-facing standard when approved processing scope,
+  defaults, formal outputs, or interpretation limits change.
 - Keep exploratory history only when it affects interpretation or future decisions.
 - Mark superseded or invalid products clearly so they are not reused accidentally.
 - Keep temporary artifacts and large source data in locations permitted by the project's workspace policy.
