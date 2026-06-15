@@ -18,6 +18,7 @@ algorithms, instruments, directory layouts, or processing stages.
 - Preserve source data, provenance, validation evidence, and limitations.
 - Stop when required decisions are unresolved or products may be invalid.
 - Separate data-producing operations from downstream interpretation.
+- Never use agent-internal labels such as `item1`, `phase3`, or `task_A` in scripts, products, or metadata; use physically meaningful, observation-relevant, or method-descriptive names instead.
 
 ## Structure
 
@@ -85,7 +86,9 @@ this skill should create and maintain:
   limits.
 
 These documents should live in the project workspace, not inside the installed
-skill directory.
+skill directory. When naming scripts or outputs, avoid agent-internal phase or
+item labels; the only acceptable references are in planning documents or
+explicit cross-references back to them.
 
 ## Scope
 

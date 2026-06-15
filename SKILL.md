@@ -31,6 +31,18 @@ The user must retain meaningful knowledge and control over data-affecting decisi
 
 Do not treat logging an unapproved choice after the fact as consent.
 
+## Hard Rule — No Agent-Internal Phase Labels In Products
+
+Never use agent-internal labels such as `item1`, `item2`, `phase3`, `stage7`, `task_A`, or similar numbering in script filenames, output directory names, output filenames, variable names, metadata `item`/`stage` fields, or any scientific product.
+
+These labels exist only in:
+
+- agent-human conversation,
+- planning documents such as `PLAN.md`, `HANDOFF`, or the worklog,
+- explicit cross-references back to those plans.
+
+Scripts and products must use names that are physically meaningful, observation-relevant, or method-descriptive. The only exception is when a genuine scientific convention already uses numbered phases; agent-internal numbering is never the exception.
+
 ## Use Authoritative Implementations
 
 Reuse the project's trusted libraries, domain tools, schemas, and established pipeline functions for domain-sensitive operations.
